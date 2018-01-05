@@ -1,0 +1,36 @@
+body {
+	background: #ffffff;
+	font-family: 'Montserrat', sans-serif;
+	font-style: normal;
+	font-weight: 400;
+ 	position: relative;
+}
+
+
+.container-fluid {
+	padding: 4rem 18rem;
+}
+
+legend {
+	font-size: 30px;
+	padding: 15px 0;
+}
+.form-inline input {
+	width: 29% !important;
+	margin-right: 30px;
+	margin-bottom: 30px;
+}
+.radio-btn {
+	margin-bottom: 35px;
+}
+.form-group {
+	margin-bottom: 30px;
+}
+.form-group label em {
+	font-weight: bold;
+	color: red;
+}
+.formDate input {
+	margin-bottom: 0;
+	margin-right: 0;
+}

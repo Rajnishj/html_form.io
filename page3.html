@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="container-fluid">
+			<div class="row">
+				<form>
+					<fieldset>
+						<legend><h2>Some Extra Questions</h2></legend>
+						<div class="form-group">
+							<label>Has <em>THIS</em> employer ever filed an <em>H1-B</em> on your behalf?</label>
+							<div class="radio">
+							<label><input type="radio" name="H1BT" id="H1BThisYes">Yes</label>
+							</div>
+							<div class="hide form-group" id="details">
+								<label>Has <em>THIS</em> employer ever filed any <em>PERMs</em> on your behalf?</label>
+								<div class="radio">
+									<label><input type="radio" name="PERMsThisYes" id="PERMsThisYes">Yes</label>
+								</div>
+								<div class="radio">
+								  <label><input type="radio" name="PERMsThisNo" id="PERMsThisNo">No</label>
+								</div>
+						   </div>
+
+							<div class="radio">
+							<label><input type="radio" name="H1BT" id="H1BThisNo">No</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Has <em>THIS</em> employer ever filed any <em>PERMs</em> on your behalf?</label>
+							<div class="radio">
+								<label><input type="radio" name="PERMsThisYes" id="PERMsThisYes">Yes</label>
+							</div>
+							<div class="radio">
+							  <label><input type="radio" name="PERMsThisNo" id="PERMsThisNo">No</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Has any other employer ever filed any <em>H1-B</em> on your behalf?</label>
+							<div class="radio">
+							  <label><input type="radio" name="H1BEverYes" id="H1BEverYes">Yes</label>
+							</div>
+							<div class="radio">
+							  <label><input type="radio" name="H1BEverNo" id="H1BEverNo">No</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Has any other employer ever filed any <em>PERMs</em> on your behalf?</label>
+							<div class="radio">
+							    <label><input type="radio" name="AnyOtherPERMsYes" id="AnyOtherPERMsYes">Yes</label>
+							</div>
+							<div class="radio">
+							    <label><input type="radio" name="AnyOtherPERMsNo" id="AnyOtherPERMsNo">No</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Has any other employer ever filed an <em>i-140</em> immigrant pertition on your behalf?</label>
+							<div class="radio">
+							  <label><input type="radio" name="ImmigrantPetitionYes" id="ImmigrantPetitionYes">Yes</label>
+							</div>
+							<div class="radio">
+							  <label><input type="radio" name="ImmigrantPetitionNo" id="ImmigrantPetitionNo">No</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>Do yu have any dependant on which behave <em>H-4</em> visa application must be filled?</label>
+							<div class="radio">
+							   <label><input type="radio" name="H4VisaYes" id="H4VisaYes">Yes</label>
+							</div>
+							<div class="radio">
+							   <label><input type="radio" name="H4VisaNo" id="H4VisaNo">No</label>
+							</div>
+						</div>
+						<div class="form-group">
+							<label>All entry any exit dates into US ONLY <em> While on H1B or L1 status(dd/mm/yyyy)</em></label>
+							<div class="form-group form-inline formDate">
+								<label for="FromDate">From</label>
+								<input type="date" name="FromDate" class="form-control" id="FromDate">
+								<label for="ToDate">To</label>
+								<input type="date" name="ToDate" class="form-control" id="ToDate">
+								<button class="btn btn-primary">Add Date!</button>
+							</div>
+						</div>
+						<button class="btn btn-primary" onclick="location.href ='page4.html';">Prev</button>
+						<button class="btn btn-primary">Reset</button>
+						<button class="btn btn-primary pull-right">Submit</button>
+						<button class="btn btn-primary pull-right" >Preview</button>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="bootstrap.min.js"></script>
+   <script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
